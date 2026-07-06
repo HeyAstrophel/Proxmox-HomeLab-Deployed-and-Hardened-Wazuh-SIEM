@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Security Home Lab Additions
+# ==========================================
+
+# Credentials and Cryptographic Keys
+*.pem
+*.key
+*.secret
+*.env
+wazuh-passwords.txt
+
+# Installer Packages & Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.sh
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Local Editor configurations
+.vscode/
+.idea/
+*.swp
